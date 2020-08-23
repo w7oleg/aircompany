@@ -1,4 +1,4 @@
-package Planes;
+package planes;
 
 import models.MilitaryType;
 
@@ -33,6 +33,7 @@ public class MilitaryPlane extends Plane{
         return type == that.type;
     }
 
+    // ??
     @Override
     public int hashCode() {
         return Objects.hash(super.hashCode(), type);
