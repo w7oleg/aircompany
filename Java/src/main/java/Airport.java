@@ -118,9 +118,5 @@ public class Airport {
     }
 
     @Override
-    public String toString() {
-        return "Airport{" +
-                "Planes=" + planes.toString() +
-                '}';
-    }
+    public String toString() { return "Planes=" + planes.toString(); }
 }
